@@ -1,5 +1,5 @@
 def opening_function():
-    f = open("believer.txt", "r")
+    f = open("penjaga-hati.txt", "r")
     data = f.read()
     print(data)
     f.close()
@@ -9,7 +9,7 @@ opening_function()
 
 
 def characters_function():
-    f = open("believer.txt", "r")
+    f = open("penjaga-hati.txt", "r")
     data = f.read()
     c = len(data)  # It calculates the number of letters.
     print("the total number of letters is: ", c)
@@ -20,7 +20,7 @@ characters_function()
 
 
 def word_function():
-    f = open("believer.txt", "r")
+    f = open("penjaga-hati.txt", "r")
     data = f.read()
     cnt = 0
     w = data.split()  # This splits the each word by space b/w each word.
@@ -34,7 +34,7 @@ word_function()
 
 
 def lowerletter_function():
-    f = open("believer.txt", "r")
+    f = open("penjaga-hati.txt", "r")
     data = f.read()
     count = 0
     for i in data:
@@ -50,7 +50,7 @@ lowerletter_function()
 
 
 def upperletter_function():
-    f = open("believer.txt", "r")
+    f = open("penjaga-hati.txt", "r")
     data = f.read()
     count = 0
     for i in data:
@@ -65,7 +65,7 @@ upperletter_function()
 
 
 def Slines_function():
-    f = open("believer.txt", "r")
+    f = open("penjaga-hati.txt", "r")
     data = f.read()  # u can use readlines() for cek line starts with s
     count = 0
     for lines in data:
@@ -79,7 +79,7 @@ Slines_function()
 
 
 def no_words_function():
-    f = open("believer.txt", "r")
+    f = open("penjaga-hati.txt", "r")
     data = f.read()
     count = 0
     ws = input("Enter word to find: ")
