@@ -78,7 +78,7 @@ def Slines_function():
 Slines_function()
 
 
-def no_words_function():
+def find_words_function():
     f = open("penjaga-hati.txt", "r")
     data = f.read()
     count = 0
@@ -92,4 +92,4 @@ def no_words_function():
     print(ws, "found", count, "times in the file.")
 
 
-no_words_function()
+find_words_function()
